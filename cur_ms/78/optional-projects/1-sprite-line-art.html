@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
+		<title>Unit 1 Optional Projects, Page 1</title>
+	</head>
+    
+	<body>
+        <h2>Sprite Line Art Project</h2>
+        <div class="todo">
+			MARY: Could we rename this "Line Art Toy"? -b
+    </div>
+        
+        <div class="learn">
+            <p><strong>In this project,</strong> you are going to simulate the famous children's toy <em>Etch A Sketch</em><sup>&reg;</sup>.</p>
+            <img class="indent" src="/bjc-r/img/1-introduction/SpriteLineArt_img/SpriteArt.png" width="320"  alt="Sprite Art" title="Sprite Art"/>
+        </div>
+        
+		<div class="todo">
+			I commented out half the page here.  If you approve, delete it. -b
+            </div>
+<!--
+        <div class="forYouToDo" id="first">
+            <ol>
+            	<li>Play with this <a href="/bjc-r/cur/programming/1-introduction/optional-projects/1c-sprite-line-art-interactive.html" target="_blank" title="Sprite Line Art Interactive">interactive Sprite Line Art program</a> to get a feel for how the drawing tool works. Use the up, down, right, left arrow keys and the space bar to see what they do.</li>
+            </ol>
+        </div>
+
+        <p>
+            These are some blocks that may be handy in your work ahead.<br />
+            <img src="/bjc-r/img/1-introduction/SpriteLineArt_img/HintsBlocks.png" width="900" alt="Hint blocks: when green flag clicked; when space key pressed; when right arrow key pressed; clear; set pen size to (1); set pen color to (red); pen up; pen down; go to x:(0) y: (0); point in direction (0); point in direction (90); move (10) steps" title="Hint blocks: when green flag clicked; when space key pressed; when right arrow key pressed; clear; set pen size to (1); set pen color to (red); pen up; pen down; go to x:(0) y: (0); point in direction (0); point in direction (90); move (10) steps"/>
+        </p>
+
+        <div class="endnote">
+            To locate the blocks you will need in the menus, you can match the block and menu colors. For example, the green blocks are in the green colored Pen menu. <br />
+            <img class="indent" src="/bjc-r/img/1-introduction/SpriteLineArt_img/penMenu.png" alt="Pen menu items: clear; pen down; pen up" title="Pen menu items: clear; pen down; pen up"/>
+        </div>
+-->
+        <div class="forYouToDo">
+            <ol start="1">
+                <li>
+                    Here are some things to do at the start of your program <code>when green flag clicked</code>:
+                    <ul>
+                        <li>Clear any previous drawings</li>
+                        <li>Place the drawing sprite at the center of the screen</li>
+                        <li>Point it in the up direction</li>
+                        <li>Set the drawing pen to a color and size of your choice</li>
+                        <li>Put pen down to get ready for drawing</li>
+                    </ul>
+                </li>
+                <li>Write code that will clear the drawings <code>when space key pressed</code> by the user.</li>
+                <li>The user will use the arrow keys to draw.  You'll need a script for each key, starting with a <code>when key pressed</code> block:<br />
+                
+                    <img src="/bjc-r/img/blocks/when-space-key-pressed.png" alt="when space key pressed"><br />
+                    For each of the four arrow keys, make the sprite point in the direction of the arrow and then move forward 10 steps.  
+                </li>
+            </ol>
+        </div>
+
+        <div class="endnote">Here is how Snap<em>!</em> assigns angles for directions: <br />
+            <!--<div class="comment">I had a note to myself about moving this box to Pong. Is that still relevant? --MF, 5/31/17 ST-Pong already has its own treatment for angles.  All optional projects are independent and Sprite Line Art needs its own guidance for directions.</div>-->
+            <ul>
+                <li>0&deg; is up </li>
+                <li>90&deg; is right </li>
+                <li>180&deg; is down </li>
+                <li>-90&deg; (or also 270&deg;) is left        </li>
+            </ul>
+        </div>
+
+        <div class="ifTime">
+            <ol start="4">
+                <li>
+                    Change your code to draw only if the sprite is within the screen dimensions: -240 to 240 in the x direction (horizontal) and -180 to 180 in the y direction (vertical).
+                </li>
+                <li>Give your user some coloring options. For example, when the “1” key is pressed, the pen color is reset to black; when the “2” key is pressed, the pen color is set to red; etc. (Suggestion: Load the crayon library (&quot;Provide 100 selected colors.&quot;) Also consider using some keys to put the <code>pen up</code> or <code>pen down</code>.</li>
+                <li>Give your user the option to draw diagonal lines. For example, write code to move the sprite at 45&deg;, 135&deg;, 225&deg;, 315&deg;, using the “w,” “s,” “a,” and “q” keys.</li>
+            </ol>
+        </div>
+
+    
+    </body>
+</html>
+
