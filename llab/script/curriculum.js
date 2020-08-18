@@ -401,7 +401,9 @@ llab.createTitleNav = function() {
     var topHTML = (
         '<nav class="llab-nav navbar navbar-default navbar-fixed-top nopadtb" role="navigation">' +
             '<div class="nav navbar-nav navbar-left">' +
-                '<a class="site-title" rel="author" href="/bjc-r"><img src="/bjc-r/img/header-footer/bjc-logo-sm2.png" alt="BJC logo" class="pull-left"> </a>' +
+               //  '<a class="site-title" href="">'+
+               '<img src="/bjc-r/img/header-footer/bjc-logo-sm2.png" alt="BJC logo" class="pull-left">'+
+               //  '</a>' +
                 '<div class="navbar-title"></div>' +
             '</div>' +
             '<div class="trapezoid"></div>' +
