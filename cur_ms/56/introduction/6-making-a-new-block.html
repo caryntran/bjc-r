@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
+        <script type="text/javascript" src="/bjc-r/utilities/gifffer.min.js"></script>
+		<script type="text/javascript">window.onload = function() {Gifffer();}</script>
+        <link rel="stylesheet" type="text/css" href="/bjc-r/css/bjc-gifffer.css">
+		<title>Trimester 1 Lab 1: Click Alonzo Game, Page 6</title>
+	</head>
+
+	<body>
+        <h2>Making Your Own Block</h2>
+		<div class="learn">
+			<p>
+                <strong>On this page,</strong> you will create a new<img class="inline" src="/bjc-r/img/1-introduction/random-response.png" alt="random response" title="random response" /> block to make the program feel more exciting. <br />
+            </p>
+        </div>
+        <img src="/bjc-r/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" />
+
+        <div class="forYouToDo" id="first">
+            <ol>
+                <li>If it isn't open already, open your Alonzo project.</li>
+                <li>
+                Create the <img class="inline" src="/bjc-r/img/1-introduction/random-response.png" alt="random response" title="random response" /> block:</li>
+            </ol>
+
+            <div class="narrower">
+                <h4><strong>Making a New Block</strong></h4>
+                <ol type="a">
+                    <img class="imageRight noshadow" src="/bjc-r/img/1-introduction/make-a-block-labeled.png" alt="image of 'Make a block' dialog box with palette with 10 menus (Motion, Looks, Pen, Sound, Lists, Control, Sensing, Operation, Variables, Other) labeled 'Choose a color (a palette)'; a text box labeled 'Type a title for your block.'; three block shape options (puzzle-shaped/'Command', oval/'Reporter', and hexagonal/'Predicate') labeled 'Select a shape.'; two radio boxes (for all sprites, which is checked, and for this sprite only, which is not checked) with no label; and two buttons (OK and Cancel) labeled 'Click OK.'" title="image of 'Make a block' dialog box with palette with 10 menus (Motion, Looks, Pen, Sound, Lists, Control, Sensing, Operation, Variables, Other) labeled 'Choose a color (a palette)'; a text box labeled 'Type a title for your block.'; three block shape options (puzzle-shaped/'Command', oval/'Reporter', and hexagonal/'Predicate') labeled 'Select a shape.'; two radio boxes (for all sprites, which is checked, and for this sprite only, which is not checked) with no label; and two buttons (OK and Cancel) labeled 'Click OK.'" />
+                    <li>
+                        Create a new block by either clicking <img class="inline" src="/bjc-r/img/1-introduction/make-a-block.png" alt="make a block button" title="make a block button" /> near the end of the palette, clicking the <b>+</b> sign in the top right corner of the palette (shown below), or right-clicking (or control-clicking on a Mac) in an empty spot in the scripting area and choosing "make a block..." (shown below).<br />
+                        <img class="indent" src="/bjc-r/img/1-introduction/plus-sign.png" alt="plus sign atop palette" title="plus sign atop palette" />
+                        <img class="indent" src="/bjc-r/img/1-introduction/make-a-block.jpg" alt="make a block option" title="make a block option" />
+                    </li>
+                    <li><strong>Choose the color</strong>, in this case red for Lists.</li>
+                    <li><strong>Type the title</strong> for your block: <code>random&nbsp;response</code>.</li>
+                    <li>
+                        <strong>Select the shape and click OK.</strong> For this block, choose the oval <em>reporter</em> shape because you want it to <i>report</i> a value (the chosen response) to another block.
+                    </li>
+                </ol>
+                <div class="endnote">
+                    <p>Because you chose the reporter shape, the block editor opens with a <img class="inline nopadtb" src="/bjc-r/img/blocks/report.png" alt="report" title="report" /> block already attached to the hat block. Whatever input you give to <code>report</code> will become the value reported by your new block.</p>
+                </div>
+
+                <h4><strong>Coding the Block's Script</strong></h4>
+                <ol type="a" start="5">
+                    <li>
+                        <strong>Drag in the blocks you need.</strong> For your new block, use <img src="/bjc-r/img/1-introduction/list.png" alt="the list block" title="the list block"> and <img src="/bjc-r/img/1-introduction/item.png" alt="item(1) of ()" title="item(1) of ()">.</li>
+
+                    <li>
+                        <strong>Snap the blocks together so that the <code>list</code> block is placed in the slot of the <code>item</code> block and place that inside the <code>report</code> slot.</strong>
+                        <!--<div class="sidenote">If you forget what's inside <code>who</code>, you can edit it and just leave the editor open for you to see as you work on your new block.  </div>-->
+                    </li>
+                    <li>
+                        <strong>Fill all the inputs</strong>.
+                        <ul>
+                            <li>For this project, click the down-arrow in <code>item</code> to change "1" to "random".</li>
+                            <li>Then fill <code>list</code> with phrases like "Welcome!" "Hi!" or "OMGASH! Nice to meet you!"</li>
+                        </ul>
+                    </li>
+                    <li><strong>Click OK</strong> when you're satisfied. </li>
+                </ol>
+            </div>
+		</div>
+
+        <div class="vocabFullWidth">: <strong>Procedures</strong>, <strong>Reporters</strong>, and <strong>Commands</strong>
+            <p>
+                A <strong>procedure</strong> is a named sequence of instructions that may take inputs and may report a value. Some languages call procedures <em>methods</em> or <em>functions</em>. Here are two types of procedures you have seen in Snap<em>!</em>:
+                <ul>
+                    <li>
+                        <strong>Reporters</strong> have an oval shape. They <em>report a value</em>.<br />
+                        <img class="indent" src="/bjc-r/img/blocks/pick-random-empty-full-size.png" alt="pick random () to ()" title="pick random () to ()" />
+                        <img class="indent" src="/bjc-r/img/blocks/list-full-size.png" alt="list ()" title="list ()">
+                        <img class="indent" src="/bjc-r/img/1-introduction/plus.png" alt="() + ()" title="() + ()" />
+                    </li>
+                    <li>
+                        <strong>Commands</strong> have a jigsaw puzzle shape. They <em>tell the computer to do something</em> without reporting a value.<br />
+                        <img class="indent" src="/bjc-r/img/blocks/broadcast.png" alt="broadcast ()" title="broadcast ()" />
+                        <img class="indent" src="/bjc-r/img/blocks/point-in-direction-blank.png" alt="point in direction ()" title="point in direction ()" />
+                        <img class="indent" src="/bjc-r/img/blocks/say-empty-full-size.png" alt="say ()" title="say ()" />
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="vocabFullWidth"> Note
+            <p>A synonym for <strong>procedure</strong> is <strong>function</strong>. But let's use the term <strong>procedure</strong> since the term function comes with a lot of connotations from math and there is some nuance in Computer Science for the term "function".</p>
+            <ul>
+                <li>
+                    The procedure <img class="inline" src="/bjc-r/img/1-introduction/double-block-definition.png" alt="PROCEDURE double (x)
+{
+    RETURN (2 * x)
+}" title="PROCEDURE double (x)
+{
+    RETURN (2 * x)
+}" /> would be written as <div class="pre-container"><pre class="inline">function double(x)
+{
+    return (2 * x)
+}</pre></div> in Javascript.
+                    <p>Many languages  use <code>return</code> instead of <code>report</code> as the name of the command to give a value back at the end of a function call.</p>
+                </li>
+                <li>The "value of a procedure" is often used to refer to the value the procedure returns when called. For example, "the value of <pre class="inline">double(5)</pre>" means 10.</li>
+            </ul>
+        </div>
+
+
+        <h3>Debugging</h3>
+        <div class="forYouToDo">
+			<ol start="3">
+                <li>Test your custom <code>random response</code> block by clicking it several times. It should report something new each time you click it. Debug any problems before moving on.</li>
+                <div class="sidenote">To edit a block, right click on it and select, "edit..."</div>
+                <li>
+                    Use your new block to make Alonzo say something random to welcome the player!
+                </li>
+
+                <li>
+                    Then test the whole program, and fix any bugs.
+                    <img class="inline nopadtb" src="/bjc-r/img/icons/save-mini.png" alt="Save your work" title="Save your work" />
+                </li>
+            </ol>
+        </div>
+
+
+     </body>
+</html>

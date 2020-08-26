@@ -4,5 +4,7 @@ title: Trimester 1
 
 heading:  Lab 1: Click Alonzo Game
 	raw-html:<img class="imageRight noshadow" src="/bjc-r/img/1-introduction/U1ImageVideoAddendum_img/U1L1P6_AlonzoFading.gif" height="175" alt="animation of Click Alonzo game in action" title="animation of Click Alonzo game in action" />
-	resource: Pair Programming [/bjc-r/cur_ms/shared/introduction/1-pair-programming.html]
+	resource: Getting Started with Snap<em>!</em> [/bjc-r/cur_ms/56/introduction/1-login-to-snap.html]
+	resource: Programming a Game [/bjc-r/cur_ms/56/introduction/2-start-your-first-snap-app.html]
+	resource: Sharing Your Game [/bjc-r/cur_ms/56/introduction/3-loading-mobile-device.html]
 }
