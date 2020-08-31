@@ -11,4 +11,14 @@ heading:  Lab 1: Click Alonzo Game
 	resource: Giving the Player Feedback [/bjc-r/cur_ms/shared/introduction/4-keeping-score.html]
 	resource: Improving Your Game [/bjc-r/cur_ms/shared/introduction/5-finish-your-first-snap-app.html]
 	resource: Making A New Block [/bjc-r/cur_ms/shared/introduction/6-making-a-new-block.html]
+
+
+heading: Lab 2: Modern Art with Polygons
+	raw-html: <img class="imageRight" src="/bjc-r/img/1-introduction/GraphicArt_img/ColoredSquareMesh.png" height="200" alt="random colored squares on black background" title="random colored squares on black background" />
+	resource: Exploring Motion [/bjc-r/cur_ms/78/computational-art/1-exploring-motion.html]
+	resource: Angles and Turning [/bjc-r/cur_ms/78/computational-art/2-exploring-snap-drawing-motion.html]
+
+heading: Creative Coding Challenges
+	resource: Challenge #1 #2 #3 [/bjc-r/cur_ms/78/computational-art/1-creative-coding-challenge.html]
+	resource: Challenge #4 [/bjc-r/cur_ms/78/computational-art/2-creative-coding-challenge.html]
 }
