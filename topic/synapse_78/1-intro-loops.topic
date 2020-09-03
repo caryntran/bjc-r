@@ -17,6 +17,8 @@ heading: Lab 2: Basic Shapes
 	raw-html: <img class="imageRight" src="/bjc-r/img/1-introduction/GraphicArt_img/ColoredSquareMesh.png" height="200" alt="random colored squares on black background" title="random colored squares on black background" />
 	resource: Exploring Motion [/bjc-r/cur_ms/78/computational-art/1-exploring-motion.html]
 	resource: Angles and Turning [/bjc-r/cur_ms/78/computational-art/2-exploring-snap-drawing-motion.html]
+	resource: Blocks with Input [/bjc-r/cur_ms/78/computational-art/3-blocks-with-inputs.html]
+	resource: Modify your pinwheel [/bjc-r/cur_ms/78/computational-art/4-modify-your-pinwheel.html]
 
 heading: Creative Coding Challenges
 	resource: Challenge #1 #2 #3 [/bjc-r/cur_ms/78/computational-art/1-creative-coding-challenge.html]
